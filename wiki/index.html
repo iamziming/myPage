@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia Viewer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+        <link rel="stylesheet" href="/asset/css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    
+    <body class="teal lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12" id="wrap">
+                    <h2>Wikipedia Search</h2>
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank"><button class="waves-effect waves-light btn" type="button">Get a random article</button></a>
+                    <input placeholder="Search..." id="input" type="text">
+                    <button class="waves-effect waves-light btn" type="button" id="search">Search</button>
+                    <ul id="list" class="collapsible" data-collapsible="accordion">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script src="asset/js/script.js"></script>
+    </body>
+</html>
