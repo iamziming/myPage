@@ -1,8 +1,10 @@
 #button{
     text-align: center;
-    margin-top: 250px;
+    padding: 100px;
 }
 
 #content{
     text-align: center;
+    height: 200px;
+    padding: 70px;
 }
