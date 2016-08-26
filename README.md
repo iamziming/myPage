@@ -1,1 +1,1 @@
-# Hi everyone, this is my personal website.
+# Hi everyone, this is my site.
