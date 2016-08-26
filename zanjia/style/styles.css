@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: 'sentychalkoriginalregular';
+    src: url('../../hbb2-webfont.eot');
+    src: url('../../hbb2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../hbb2-webfont.woff2') format('woff2'),
+         url('../../hbb2-webfont.woff') format('woff'),
+         url('../../hbb2-webfont.ttf') format('truetype'),
+         url('../../hbb2-webfont.svg#sentychalkoriginalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+body{
+    font-family: 'sentychalkoriginalregular';
+}
+*/
+
+
+.navbar-wrapper {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+
+.marketing .col-sm-4 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer p a{
+    color: black;
+}
+
+.dropdown ul li a{
+    color: white;
+}
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
